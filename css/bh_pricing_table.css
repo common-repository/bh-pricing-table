@@ -1,0 +1,124 @@
+/* --------------------------------------------------------
+#        Start pricing CSS
+-----------------------------------------------------------*/
+
+.pricing_area{}
+.single_pricing{
+	border: 1px solid #ddd;	
+	margin-bottom: 30px;
+	transition: 0.5s;
+	text-align: center;
+}
+.single_pricing .header{
+	padding: 30px 20px 0;
+}
+.single_pricing .footer{
+	padding: 30px 20px;
+	
+}
+.single_pricing .plan_name{
+	font-size: 25px;
+	line-height: 30px;
+	margin-bottom: 25px;
+	text-transform: uppercase;
+}
+.single_pricing .price{
+	background: #00bff3;
+	border-radius: 50%;
+	box-shadow: 0 5px 13px -4px #585858 inset;
+	color: #fff;
+	font-weight: 600;
+	height: 120px;
+	margin: 0 auto;
+	padding-top: 33px;
+	position: relative;
+	width: 120px;
+	position:relative;
+	border: 5px solid #f9f9f9;
+}
+
+
+.single_pricing .amount{
+	display: inline-block;
+	font-size: 35px;	
+	line-height: 30px;
+}
+.single_pricing .period{
+	font-weight: 400;
+}
+.single_pricing .pri_list{
+	list-style-type: none;
+	margin: 20px 0 0;
+	padding: 0 25px;
+}
+.single_pricing .pri_list li{
+	border-top: 1px dashed #eaeaea;
+	padding: 12px 0px;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+
+.single_pricing:hover,
+.single_pricing.feature{
+	background: #00bff3;
+	color: #fff;
+}
+.single_pricing:hover .plan_name,
+.single_pricing.feature .plan_name{
+	color: #fff;
+}
+.single_pricing:hover .price:before,
+.single_pricing.feature .price:before{
+	border-color: #00bff3;
+}
+.single_pricing:hover .price,
+.single_pricing.feature .price
+
+{
+	background: #fff;
+	color: #00bff3;
+}
+
+.single_pricing:hover .radon,
+.single_pricing.feature .radon{
+	background: #fff;
+	color: #00bff3;
+}
+.single_pricing:hover .pri_list li,
+.single_pricing.feature .pri_list li{
+	color: #fff;
+}
+.no_guttar > [class^="col-"] {
+  padding-left: 0;
+  padding-right: 0;
+}
+.single_pricing .pfooter{
+	padding: 20px 20px 30px;	
+}
+.radon{
+	background: #00bff3 none repeat scroll 0 0;
+	border: 2px solid #00bff3 ;
+	color: #fff;
+	display: inline-block;
+	font-size: 13px;
+	padding: 10px 25px;
+	text-transform: uppercase;
+	transition: all 0.5s ease 0s;
+	width: auto;
+	text-decoration: none;
+	border-radius: 2%;
+	font-weight: 700;
+	
+}
+ 
+.radon:hover, 
+.radon:focus{
+	text-decoration: none;
+	color: #00bff3;
+	background: transparent;
+	border: 2px solid #00bff3;
+}
+/* --------------------------------------------------------
+#        End pricing CSS
+-----------------------------------------------------------*/
